@@ -3,7 +3,7 @@
 <p>Explore the world of live notifications by building a dynamic system that transforms static data into real-time updates. <br>
 This project leverages Python, Kafka, and ksqlDB to bring data to life, with a focus on YouTube's REST API as a static data source.</p>
 
-1. Getting Started: Clone the Repository
+1. <strong>Getting Started:</strong> Clone the Repository
 
 2. Set Up Dependencies: Ensure you have Python installed on your machine.
 
