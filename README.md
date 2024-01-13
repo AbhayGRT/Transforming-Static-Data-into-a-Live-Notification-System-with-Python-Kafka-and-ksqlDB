@@ -1,5 +1,7 @@
 <h1>Transforming Static Data into a Live Notification System with Python, Kafka, and ksqlDB</h1>
 
+![Alt Text](images/readme.png)
+
 <p>Explore the world of live notifications by building a dynamic system that transforms static data into real-time updates. <br>
 This project leverages Python, Kafka, and ksqlDB to bring data to life, with a focus on YouTube's REST API as a static data source.</p>
 
