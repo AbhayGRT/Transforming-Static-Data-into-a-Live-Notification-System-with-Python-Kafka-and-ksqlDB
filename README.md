@@ -1,62 +1,34 @@
-Transforming Static Data into a Live Notification System with Python, Kafka, and ksqlDB
-Overview
-Explore the world of live notifications by building a dynamic system that transforms static data into real-time updates. This project leverages Python, Kafka, and ksqlDB to bring data to life, with a focus on YouTube's REST API as a static data source.
+<h1>Transforming Static Data into a Live Notification System with Python, Kafka, and ksqlDB</h1>
 
-Getting Started
-Clone the Repository
-Clone this GitHub repository to your local machine.
+<p>Explore the world of live notifications by building a dynamic system that transforms static data into real-time updates. <br>
+This project leverages Python, Kafka, and ksqlDB to bring data to life, with a focus on YouTube's REST API as a static data source.</p>
 
-```
-git clone https://github.com/your-username/your-repo.git
-```
-Set Up Dependencies
-Ensure you have Python installed on your machine.
+1. Getting Started: Clone the Repository
 
-Install required Python packages.
+2. Set Up Dependencies: Ensure you have Python installed on your machine.
 
-```
-pip install -r requirements.txt
-```
-Configure API Keys
-Obtain API keys for YouTube, Kafka, and Telegram. Configure these keys in the project.
+3. Install required Python packages: pip install -r requirements.txt
 
-Setting Up the Environment
-Create Kafka Cluster
-Set up a Kafka cluster in Confluent Cloud to act as the central data streaming platform.
+4. Configure API Keys: Obtain API keys for YouTube, Kafka, and Telegram. Configure these keys in the project.
 
-Create ksqlDB Cluster
-Establish a ksqlDB cluster in Confluent Cloud to process and analyze data with SQL-like queries.
+5. Setting Up the Environment: Create Kafka Cluster, Set up a Kafka cluster in Confluent Cloud to act as the central data streaming platform.
 
-Schema Registry
-Deploy a separate cluster for Schema Registry to manage schema evolution and compatibility.
+6. Create ksqlDB Cluster: Establish a ksqlDB cluster in Confluent Cloud to process and analyze data with SQL-like queries.
 
-Data Processing and Streaming
-Define Queries in ksqlDB
-Define and execute ksqlDB queries to process incoming data, identify important changes, and generate alerts.
+7. Schema Registry: Deploy a separate cluster for Schema Registry to manage schema evolution and compatibility.
 
-API Endpoint Configuration
-Configure API endpoints for YouTube's REST API to fetch and process static data.
+8. Data Processing and Streaming: Define and execute ksqlDB queries to process incoming data, identify important changes, and generate alerts.
 
-HTTPS Connection Setup
-Establish a secure HTTPS connection for data transmission between your application and external APIs.
+9. API Endpoint Configuration: Configure API endpoints for YouTube's REST API to fetch and process static data.
 
-Configuration Setup
-Configure the application with necessary credentials, API keys, and connection details for Confluent Cloud and other services.
+10. HTTPS Connection Setup: Establish a secure HTTPS connection for data transmission between your application and external APIs.
 
-Running the Application
-Run Main Application (youtube_watcher.py)
-Execute the main application (youtube_watcher.py) to initiate the data fetching, processing, and streaming into Confluent Cloud.
+11. Configuration Setup: Configure the application with necessary credentials, API keys, and connection details for Confluent Cloud and other services.
 
-Monitor ksqlDB Output
-Monitor the output of ksqlDB queries to observe real-time changes and updates based on the processed data.
+12. Running the Application: Execute the main application (youtube_watcher.py) to initiate the data fetching, processing, and streaming into Confluent Cloud.
 
-Telegram Integration
-Telegram Bot Integration
-Set up a Telegram bot and configure the application to push live, custom notifications to Telegram based on the identified changes.
+13. Monitor ksqlDB Output: Monitor the output of ksqlDB queries to observe real-time changes and updates based on the processed data.
 
-Observing Transformations
-Reflect on Changes
-Observe and analyze how the static data from YouTube's REST API transforms into real-time alerts and notifications through the entire pipeline.
+14. Telegram Bot Integration: Set up a Telegram bot and configure the application to push live, custom notifications to Telegram based on the identified changes.
 
-Contributing
-Feel free to contribute enhancements or share your experiences by opening issues and pull requests.
+15. Observing Transformations: Observe and analyze how the static data from YouTube's REST API transforms into real-time alerts and notifications through the entire pipeline.
